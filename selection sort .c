@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-/*
-void swap(int *xp, int *yp) {   you can use this function
+/* void swap(int *xp, int *yp) {   you can use this function
 	int temp = *xp;
 	*xp = *yp;
 	*yp = temp;
-}
-*/
+} */
 void selectionSort(int arr[], int n){
 	int i, j, min_idx;
 	for (i = 0; i < n-1; i++) {         // One by one move boundary of unsorted subarray
