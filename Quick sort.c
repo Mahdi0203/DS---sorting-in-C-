@@ -1,5 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
 
 int Partition(int arr[],int low,int high){
     //choose the pivot
